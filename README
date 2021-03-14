@@ -8,4 +8,4 @@ Public Domain
 Ecomcon is a filter that enables selected comments, making them
 executable. This makes it possible to put development, performance, and
 testing scaffolding into a source file. The scaffolding is removed by
-minification, but is activated by ecomcon. There are curr
+minification, but is activated by ecomcon. There are currently
