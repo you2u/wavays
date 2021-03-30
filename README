@@ -10,3 +10,5 @@ executable. This makes it possible to put development, performance, and
 testing scaffolding into a source file. The scaffolding is removed by
 minification, but is activated by ecomcon. There are currently two
 implementations of ecomcon in C and JavaScript.
+
+Ec
