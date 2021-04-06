@@ -11,4 +11,4 @@ testing scaffolding into a source file. The scaffolding is removed by
 minification, but is activated by ecomcon. There are currently two
 implementations of ecomcon in C and JavaScript.
 
-Ecomcon is a filter
+Ecomcon is a filter t
