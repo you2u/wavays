@@ -12,4 +12,4 @@ minification, but is activated by ecomcon. There are currently two
 implementations of ecomcon in C and JavaScript.
 
 Ecomcon is a filter that takes a source file and looks for tagged
-co
+comme
