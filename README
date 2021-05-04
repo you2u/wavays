@@ -14,4 +14,4 @@ implementations of ecomcon in C and JavaScript.
 Ecomcon is a filter that takes a source file and looks for tagged
 comments in this form:
 
-    //tag
+    //tag st
