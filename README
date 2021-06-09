@@ -21,4 +21,4 @@ space between the '//' and the tag.
 
 Ecomcon is given a list of the names of the tags that should be enabled.
 
-The implementation in C obtains the input from 'stdin', and 
+The implementation in C obtains the input from 'stdin', and provid
