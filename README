@@ -24,4 +24,4 @@ Ecomcon is given a list of the names of the tags that should be enabled.
 The implementation in C obtains the input from 'stdin', and provides the
 result to 'stdout'. The tag list is taken from the command line. The
 command line can also include a '-comment' specification. Ecomcon will
-exit(1) i
+exit(1) if th
