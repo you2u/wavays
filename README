@@ -26,4 +26,4 @@ result to 'stdout'. The tag list is taken from the command line. The
 command line can also include a '-comment' specification. Ecomcon will
 exit(1) if there is an error.
 
-In JavaScript, it is available as the ecomcon func
+In JavaScript, it is available as the ecomcon functio
