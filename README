@@ -27,4 +27,4 @@ command line can also include a '-comment' specification. Ecomcon will
 exit(1) if there is an error.
 
 In JavaScript, it is available as the ecomcon function that takes a
-source string, an array of tags, and an opt
+source string, an array of tags, and an optiona
