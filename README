@@ -28,4 +28,4 @@ exit(1) if there is an error.
 
 In JavaScript, it is available as the ecomcon function that takes a
 source string, an array of tags, and an optional array of comments. It
-will throw an exception 
+will throw an exception if t
