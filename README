@@ -31,4 +31,4 @@ source string, an array of tags, and an optional array of comments. It
 will throw an exception if there is an error. If there is no error, it
 returns a string.
 
-C c
+C comman
