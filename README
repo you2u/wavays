@@ -32,4 +32,5 @@ will throw an exception if there is an error. If there is no error, it
 returns a string.
 
 C command line example:
--
+----
+e
