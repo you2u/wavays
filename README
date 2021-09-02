@@ -33,4 +33,4 @@ returns a string.
 
 C command line example:
 ----
-ecomcon -comment "Devel Edition." <i
+ecomcon -comment "Devel Edition." <input
