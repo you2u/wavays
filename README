@@ -39,4 +39,4 @@ ecomcon -comment "Devel Edition." <input >output es6 test enter exit
 JavaScript example:
 ----
 import ecomcon from "./ecomcon.js";
-let output = ec
+let output = ecomcon(
