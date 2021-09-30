@@ -40,4 +40,4 @@ JavaScript example:
 ----
 import ecomcon from "./ecomcon.js";
 let output = ecomcon(
-    i
+    input
