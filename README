@@ -41,4 +41,5 @@ JavaScript example:
 import ecomcon from "./ecomcon.js";
 let output = ecomcon(
     input,
-    ["es6", "test", "enter", "exit"
+    ["es6", "test", "enter", "exit"],
+  
