@@ -44,4 +44,6 @@ let output = ecomcon(
     ["es6", "test", "enter", "exit"],
     ["Devel Edition."]
 );
--
+----
+
+i
