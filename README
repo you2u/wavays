@@ -46,4 +46,4 @@ let output = ecomcon(
 );
 ----
 
-inp
+input:
