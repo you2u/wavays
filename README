@@ -50,4 +50,4 @@ input:
 ----
 // This is a sample file.
 
-function Constructor(number)
+function Constructor(number) {
