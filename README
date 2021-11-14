@@ -52,4 +52,4 @@ input:
 
 function Constructor(number) {
 
-//enter log_enter("Constructor"
+//enter log_enter("Constructor");
