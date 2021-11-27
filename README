@@ -56,4 +56,4 @@ function Constructor(number) {
 
     function private_method() {
 
-//enter log_enter("pri
+//enter log_enter("priv
