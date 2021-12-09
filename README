@@ -60,4 +60,4 @@ function Constructor(number) {
 
 //nochange alert();
 
-//exit l
+//exit log
