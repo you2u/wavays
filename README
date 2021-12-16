@@ -60,4 +60,6 @@ function Constructor(number) {
 
 //nochange alert();
 
-//exit log_exit("private_method")
+//exit log_exit("private_method");
+
+  
