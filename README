@@ -62,4 +62,4 @@ function Constructor(number) {
 
 //exit log_exit("private_method");
 
-  
+    }
