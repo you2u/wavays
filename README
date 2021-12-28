@@ -64,4 +64,4 @@ function Constructor(number) {
 
     }
 
-//test this.private_method = privat
+//test this.private_method = private
