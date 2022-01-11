@@ -67,4 +67,5 @@ function Constructor(number) {
 //test this.private_method = private_method;
 //test this.priv = function () {
 
-//enter log_enter("pri
+//enter log_enter("priv");
+
