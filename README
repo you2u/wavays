@@ -71,3 +71,4 @@ function Constructor(number) {
 
         private_method();
 
+//ex
