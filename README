@@ -71,4 +71,4 @@ function Constructor(number) {
 
         private_method();
 
-//exit log_
+//exit log_exit
