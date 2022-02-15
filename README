@@ -78,3 +78,5 @@ function Constructor(number) {
 //exit log_exit("Constructor");
 
 }
+
+//es6
