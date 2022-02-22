@@ -79,4 +79,4 @@ function Constructor(number) {
 
 }
 
-//es6 export default C
+//es6 export default Cons
