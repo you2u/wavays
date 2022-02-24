@@ -79,4 +79,5 @@ function Constructor(number) {
 
 }
 
-//es6 export default Construct
+//es6 export default Constructor;
+/
