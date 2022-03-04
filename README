@@ -80,4 +80,5 @@ function Constructor(number) {
 }
 
 //es6 export default Constructor;
-//legacy module.exports = Construct
+//legacy module.exports = Constructor;
+--
