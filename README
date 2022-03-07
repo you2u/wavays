@@ -83,4 +83,5 @@ function Constructor(number) {
 //legacy module.exports = Constructor;
 ----
 
-outpu
+output:
+-
