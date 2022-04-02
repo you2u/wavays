@@ -90,4 +90,4 @@ output:
 
 function Constructor(number) {
 
-log_enter("C
+log_enter("Co
