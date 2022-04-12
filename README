@@ -92,4 +92,4 @@ function Constructor(number) {
 
 log_enter("Constructor");
 
-    func
+    function pr
