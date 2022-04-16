@@ -92,4 +92,4 @@ function Constructor(number) {
 
 log_enter("Constructor");
 
-    function private_metho
+    function private_method() 
