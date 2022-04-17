@@ -94,4 +94,4 @@ log_enter("Constructor");
 
     function private_method() {
 
-log_en
+log_enter("
