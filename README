@@ -97,4 +97,4 @@ log_enter("Constructor");
 log_enter("private_method");
 
 
-log_exit("p
+log_exit("priva
