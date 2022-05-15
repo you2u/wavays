@@ -100,3 +100,5 @@ log_enter("private_method");
 log_exit("private_method");
 
     }
+
+t
