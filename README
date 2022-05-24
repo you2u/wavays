@@ -101,4 +101,4 @@ log_exit("private_method");
 
     }
 
-this.private_method = privat
+this.private_method = private_metho
