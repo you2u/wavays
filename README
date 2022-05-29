@@ -102,4 +102,4 @@ log_exit("private_method");
     }
 
 this.private_method = private_method;
-this.priv = functi
+this.priv = function
