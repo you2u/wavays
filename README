@@ -106,4 +106,4 @@ this.priv = function () {
 
 log_enter("priv");
 
-        privat
+        private_met
