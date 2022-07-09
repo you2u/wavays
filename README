@@ -108,4 +108,6 @@ log_enter("priv");
 
         private_method();
 
-log_exit("priv"
+log_exit("priv");
+
+ 
