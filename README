@@ -111,3 +111,5 @@ log_enter("priv");
 log_exit("priv");
 
     }
+
+log_ex
