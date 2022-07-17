@@ -112,4 +112,4 @@ log_exit("priv");
 
     }
 
-log_ex
+log_exit("
