@@ -112,4 +112,5 @@ log_exit("priv");
 
     }
 
-log_exit("Constructor
+log_exit("Constructor");
+
