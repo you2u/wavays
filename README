@@ -116,4 +116,4 @@ log_exit("Constructor");
 
 }
 
-export defau
+export default C
