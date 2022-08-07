@@ -119,3 +119,4 @@ log_exit("Constructor");
 export default Constructor;
 ----
 
+input
