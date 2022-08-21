@@ -121,4 +121,4 @@ export default Constructor;
 
 input, lightly minified:
 ----
-function Constr
+function Constructor
