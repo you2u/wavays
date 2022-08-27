@@ -122,4 +122,4 @@ export default Constructor;
 input, lightly minified:
 ----
 function Constructor(number) {
-    function
+    function 
