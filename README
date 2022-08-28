@@ -122,4 +122,4 @@ export default Constructor;
 input, lightly minified:
 ----
 function Constructor(number) {
-    function private_method(
+    function private_method() {
