@@ -123,3 +123,4 @@ input, lightly minified:
 ----
 function Constructor(number) {
     function private_method() {
+   
