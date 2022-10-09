@@ -125,4 +125,4 @@ function Constructor(number) {
     function private_method() {
     }
     this.priv = function () {
-        private
+        private_met
