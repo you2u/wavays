@@ -126,4 +126,6 @@ function Constructor(number) {
     }
     this.priv = function () {
         private_method();
-   
+    }
+}
+--
