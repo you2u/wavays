@@ -1,0 +1,3 @@
+
+/*  ecomcon.c
+    Douglas Crockford
