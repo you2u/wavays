@@ -12,3 +12,6 @@
     development time activities like debugging, testing, logging, or tracing. A
     conditional comment is a '//' style comment that starts at the left margin.
     The '//' is immediately followed by a <tag>. There must be no space between
+    the slashes and the <tag>.
+
+        //<tag> <stuff>
