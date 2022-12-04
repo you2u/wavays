@@ -15,3 +15,11 @@
     the slashes and the <tag>.
 
         //<tag> <stuff>
+
+    If the <stuff> starts with a letter or digit, then a space must be placed
+    between <tag> and <stuff>.
+
+    The command line will contain a list of <tag> names.
+
+    A <tag> may contain any short sequence of ASCII letters, digits, and
+    underbar '_'. The active <tag> strings are declared in the command line.
