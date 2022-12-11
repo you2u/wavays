@@ -23,3 +23,6 @@
 
     A <tag> may contain any short sequence of ASCII letters, digits, and
     underbar '_'. The active <tag> strings are declared in the command line.
+    All <tag>s that are not declared in the command line are deleted.
+
+    A command line can contain zero or more comments.
