@@ -30,3 +30,5 @@
         -comment <comment>
 
     Sample method line:
+
+        ecomcon debug log -comment "Devel Edition"
