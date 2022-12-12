@@ -26,3 +26,7 @@
     All <tag>s that are not declared in the command line are deleted.
 
     A command line can contain zero or more comments.
+
+        -comment <comment>
+
+    Sample method line:
