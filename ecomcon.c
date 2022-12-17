@@ -32,3 +32,8 @@
     Sample method line:
 
         ecomcon debug log -comment "Devel Edition"
+
+    That will activate the debug and log comments, and will also insert the
+    comment
+
+        // Devel Edition
