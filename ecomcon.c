@@ -37,3 +37,8 @@
     comment
 
         // Devel Edition
+
+    at the top of the output file.
+
+    A program is read from stdin, and a modified program is written to stdout.
+    Errors are written to stderr.
