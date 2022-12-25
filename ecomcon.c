@@ -46,3 +46,6 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+
+#define MAX_NR_TAGS         1000
