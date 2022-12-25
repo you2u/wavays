@@ -49,3 +49,7 @@
 #include <string.h>
 
 #define MAX_NR_TAGS         1000
+#define MAX_LINE_LENGTH     65536
+
+static int  nr_tags;
+static int  tag_lengths[MAX_NR_TAGS];
