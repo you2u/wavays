@@ -42,3 +42,7 @@
 
     A program is read from stdin, and a modified program is written to stdout.
     Errors are written to stderr.
+*/
+
+#include <stdlib.h>
+#include <stdio.h>
