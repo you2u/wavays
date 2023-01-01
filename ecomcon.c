@@ -53,3 +53,4 @@
 
 static int  nr_tags;
 static int  tag_lengths[MAX_NR_TAGS];
+static char *tags[MAX_NR_TAGS];
