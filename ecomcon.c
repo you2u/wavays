@@ -57,3 +57,10 @@ static char *tags[MAX_NR_TAGS];
 
 static char line[MAX_LINE_LENGTH];
 static int  line_length;
+static int  line_nr;
+
+static int the_character;
+
+static void error(char* message) {
+    fputs("ecomcon: ", stderr);
+    if (line_nr == 0) {
