@@ -64,3 +64,5 @@ static int the_character;
 static void error(char* message) {
     fputs("ecomcon: ", stderr);
     if (line_nr == 0) {
+        fprintf(stderr, "\necomcon: %s\n", message);
+    } else {
