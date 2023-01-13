@@ -68,3 +68,5 @@ static void error(char* message) {
     } else {
         fprintf(stderr, "\necomcon: %d %s\n", line_nr, message);
     }
+    exit(EXIT_FAILURE);
+}
