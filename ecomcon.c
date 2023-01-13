@@ -70,3 +70,10 @@ static void error(char* message) {
     }
     exit(EXIT_FAILURE);
 }
+
+
+static int is_tag_char(int c) {
+/*
+    Return 1 if the character is a letter, digit, underscore.
+*/
+    return (
