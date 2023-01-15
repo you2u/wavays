@@ -86,3 +86,9 @@ static int is_tag_char(int c) {
 
  static void emit(int c) {
 /*
+    Send a character to stdout.
+*/
+    if (fputc(c, stdout) == EOF) {
+        error("write error.");
+    }
+}
