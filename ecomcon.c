@@ -81,3 +81,8 @@ static int is_tag_char(int c) {
         || (c >= '0' && c <= '9')
         || (c >= 'A' && c <= 'Z')
         || c == '_'
+    );
+}
+
+ static void emit(int c) {
+/*
