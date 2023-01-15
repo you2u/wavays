@@ -92,3 +92,7 @@ static int is_tag_char(int c) {
         error("write error.");
     }
 }
+
+
+static void emit_line(int from) {
+/*
