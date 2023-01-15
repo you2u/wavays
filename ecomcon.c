@@ -77,3 +77,7 @@ static int is_tag_char(int c) {
     Return 1 if the character is a letter, digit, underscore.
 */
     return (
+        (c >= 'a' && c <= 'z')
+        || (c >= '0' && c <= '9')
+        || (c >= 'A' && c <= 'Z')
+        || c == '_'
