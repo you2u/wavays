@@ -100,3 +100,11 @@ static void emit_line(int from) {
 */
     int index;
     for (index = from; index < line_length; index += 1) {
+        emit(line[index]);
+    }
+}
+
+
+static int match(int length) {
+    int tag_nr;
+    int index;
