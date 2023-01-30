@@ -96,3 +96,7 @@ static int is_tag_char(int c) {
 
 static void emit_line(int from) {
 /*
+    Send all or part of the current line to stdout.
+*/
+    int index;
+    for (index = from; index < line_length; index += 1) {
