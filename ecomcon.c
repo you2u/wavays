@@ -112,3 +112,10 @@ static int match(int length) {
 
     for (tag_nr = 0; tag_nr < nr_tags; tag_nr += 1) {
         if (tag_lengths[tag_nr] == length) {
+            ok = 1;
+            for (index = 0; index < length; index += 1) {
+                if (tags[tag_nr][index] != line[2 + index]) {
+                    ok = 0;
+                    break;
+                }
+            }
