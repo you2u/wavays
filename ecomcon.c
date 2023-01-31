@@ -108,3 +108,7 @@ static void emit_line(int from) {
 static int match(int length) {
     int tag_nr;
     int index;
+    int ok;
+
+    for (tag_nr = 0; tag_nr < nr_tags; tag_nr += 1) {
+        if (tag_lengths[tag_nr] == length) {
