@@ -119,3 +119,5 @@ static int match(int length) {
                     break;
                 }
             }
+            if (ok) {
+                return 1;
