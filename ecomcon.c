@@ -121,3 +121,5 @@ static int match(int length) {
             }
             if (ok) {
                 return 1;
+            }
+        }
