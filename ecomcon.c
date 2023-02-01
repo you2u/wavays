@@ -123,3 +123,6 @@ static int match(int length) {
                 return 1;
             }
         }
+    }
+    return 0;
+}
