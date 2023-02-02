@@ -126,3 +126,5 @@ static int match(int length) {
     }
     return 0;
 }
+
+static int next() {
