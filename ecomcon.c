@@ -128,3 +128,10 @@ static int match(int length) {
 }
 
 static int next() {
+    the_character = fgetc(stdin);
+    return the_character;
+}
+
+static int read_line() {
+    int at = 0;
+    int eof = 0;
