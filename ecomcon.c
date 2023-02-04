@@ -135,3 +135,11 @@ static int next() {
 static int read_line() {
     int at = 0;
     int eof = 0;
+    while (1) {
+        line_nr += 1;
+        if (the_character == EOF) {
+            return eof = (at == 0);
+        }
+        if (the_character == '\n') {
+            next();
+            break;
