@@ -150,3 +150,6 @@ static int read_line() {
             }
             break;
         }
+        line[at] = the_character;
+        at += 1;
+        if (at >= MAX_LINE_LENGTH) {
