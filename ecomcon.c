@@ -147,3 +147,6 @@ static int read_line() {
         if (the_character == '\r') {
             if (next() == '\n') {
                 next();
+            }
+            break;
+        }
