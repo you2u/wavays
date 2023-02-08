@@ -153,3 +153,7 @@ static int read_line() {
         line[at] = the_character;
         at += 1;
         if (at >= MAX_LINE_LENGTH) {
+            error("Line too long.");
+        }
+        next();
+    }
