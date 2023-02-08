@@ -161,3 +161,6 @@ static int read_line() {
     line[at] = 0;
     return 0;
 }
+
+static void process() {
+    next();
