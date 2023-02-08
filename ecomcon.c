@@ -157,3 +157,7 @@ static int read_line() {
         }
         next();
     }
+    line_length = at;
+    line[at] = 0;
+    return 0;
+}
