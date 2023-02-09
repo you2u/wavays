@@ -164,3 +164,7 @@ static int read_line() {
 
 static void process() {
     next();
+    while (1) {
+        line_length = 0;
+        int supress = 0;
+        int at = 0;
