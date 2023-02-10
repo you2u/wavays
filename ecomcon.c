@@ -168,3 +168,7 @@ static void process() {
         line_length = 0;
         int supress = 0;
         int at = 0;
+        if (read_line() != 0) {
+            break;
+        }
+        if (line_length > 2 && line[0] == '/' && line[1] == '/') {
