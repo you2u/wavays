@@ -174,3 +174,10 @@ static void process() {
         if (line_length > 2 && line[0] == '/' && line[1] == '/') {
             int tag_length = 0;
             while (is_tag_char(line[tag_length + 2])) {
+                tag_length += 1;
+            }
+            if (tag_length > 0) {
+                if (match(tag_length) == 0) {
+                    supress = 1;
+                } else {
+                    at += tag_length + 2;
