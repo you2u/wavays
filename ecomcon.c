@@ -172,3 +172,5 @@ static void process() {
             break;
         }
         if (line_length > 2 && line[0] == '/' && line[1] == '/') {
+            int tag_length = 0;
+            while (is_tag_char(line[tag_length + 2])) {
