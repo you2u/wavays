@@ -191,3 +191,9 @@ static void process() {
             emit_line(at);
             emit('\n');
         }
+    }
+}
+
+
+extern int main(int argc, char *argv[]) {
+    char *arg;
