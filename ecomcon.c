@@ -186,3 +186,8 @@ static void process() {
                     }
                 }
             }
+        }
+        if (!supress) {
+            emit_line(at);
+            emit('\n');
+        }
