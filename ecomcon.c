@@ -181,3 +181,8 @@ static void process() {
                     supress = 1;
                 } else {
                     at += tag_length + 2;
+                    if (line[at] == ' ') {
+                        at += 1;
+                    }
+                }
+            }
