@@ -197,3 +197,5 @@ static void process() {
 
 extern int main(int argc, char *argv[]) {
     char *arg;
+    int arg_nr;
+    int at;
