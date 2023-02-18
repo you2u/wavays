@@ -199,3 +199,11 @@ extern int main(int argc, char *argv[]) {
     char *arg;
     int arg_nr;
     int at;
+    int comment = 0;
+    int the_character;
+    line_nr = 0;
+    nr_tags = 0;
+    for (arg_nr = 1; arg_nr < argc; arg_nr += 1) {
+        arg = argv[arg_nr];
+        if (strcmp(arg, "-comment") == 0) {
+            comment = 1;
