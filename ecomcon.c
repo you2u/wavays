@@ -207,3 +207,6 @@ extern int main(int argc, char *argv[]) {
         arg = argv[arg_nr];
         if (strcmp(arg, "-comment") == 0) {
             comment = 1;
+        } else if (comment) {
+            comment = 0;
+            emit('/');
