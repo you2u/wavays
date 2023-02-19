@@ -216,3 +216,6 @@ extern int main(int argc, char *argv[]) {
         } else {
             at = 0;
             while (1) {
+                the_character = arg[at];
+                if (the_character == 0) {
+                    break;
