@@ -219,3 +219,8 @@ extern int main(int argc, char *argv[]) {
                 the_character = arg[at];
                 if (the_character == 0) {
                     break;
+                }
+                if (!is_tag_char(the_character)) {
+                    error(arg);
+                }
+                at += 1;
