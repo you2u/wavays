@@ -210,3 +210,9 @@ extern int main(int argc, char *argv[]) {
         } else if (comment) {
             comment = 0;
             emit('/');
+            emit('/');
+            puts(arg);
+            emit('\n');
+        } else {
+            at = 0;
+            while (1) {
