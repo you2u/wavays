@@ -224,3 +224,4 @@ extern int main(int argc, char *argv[]) {
                     error(arg);
                 }
                 at += 1;
+            }
