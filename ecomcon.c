@@ -231,3 +231,5 @@ extern int main(int argc, char *argv[]) {
                 nr_tags += 1;
             }
         }
+    }
+    process();
