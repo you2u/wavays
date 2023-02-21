@@ -228,3 +228,6 @@ extern int main(int argc, char *argv[]) {
             if (at > 0) {
                 tags[nr_tags] = arg;
                 tag_lengths[nr_tags] = at;
+                nr_tags += 1;
+            }
+        }
