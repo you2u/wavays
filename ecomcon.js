@@ -12,3 +12,7 @@ const rx_ecomcon = /^\/\/([a-zA-Z0-9_]+)\u0020?(.*)$/;
 //.  [2] The rest of the line
 
 const rx_tag = /^[a-zA-Z0-9_]+$/;
+
+export default Object.freeze(function ecomcon(source_string, tag_array) {
+    const tag = Object.create(null);
+    tag_array.forEach(
