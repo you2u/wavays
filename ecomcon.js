@@ -19,3 +19,6 @@ export default Object.freeze(function ecomcon(source_string, tag_array) {
         function (string) {
             if (!rx_tag.test(string)) {
                 throw new Error("ecomcon: " + string);
+            }
+            tag[string] = true;
+        }
