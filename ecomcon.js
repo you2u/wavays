@@ -22,3 +22,11 @@ export default Object.freeze(function ecomcon(source_string, tag_array) {
             }
             tag[string] = true;
         }
+    );
+    return source_string.split(rx_crlf).map(
+        function (line) {
+            const array = line.match(rx_ecomcon);
+            return (
+                Array.isArray(array)
+                ? (
+                    tag[array[1]] === true
