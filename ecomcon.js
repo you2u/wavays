@@ -30,3 +30,4 @@ export default Object.freeze(function ecomcon(source_string, tag_array) {
                 Array.isArray(array)
                 ? (
                     tag[array[1]] === true
+                    ? array[2] + "\n"
