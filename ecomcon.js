@@ -34,3 +34,7 @@ export default Object.freeze(function ecomcon(source_string, tag_array) {
                     : ""
                 )
                 : line + "\n"
+            );
+        }
+    ).join("");
+});
