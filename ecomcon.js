@@ -31,3 +31,6 @@ export default Object.freeze(function ecomcon(source_string, tag_array) {
                 ? (
                     tag[array[1]] === true
                     ? array[2] + "\n"
+                    : ""
+                )
+                : line + "\n"
